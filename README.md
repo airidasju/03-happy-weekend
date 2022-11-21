@@ -7,7 +7,7 @@ _website design project_
 ## 🌟 About
 
 
-Site published at: -----
+Site published at: [Happy Weekend](https://airidasju.github.io/03-happy-weekend/)
 
 Design: [Happy Weekend](./img/design.png)
 
