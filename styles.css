@@ -1,0 +1,27 @@
+a {
+    text-decoration: none;
+    color: #3f4371
+}
+
+li {
+    border:3px solid transparent;
+    padding: 4px 10px;
+    display: inline-block;
+    margin-right: 75px;
+    color: #3f4371
+}
+
+li:hover {
+    border: 3px solid #3f4371;
+    padding: 4px 10px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+
+i {
+  font-size: 48px;
+}
+
+#moreBtn {
+  box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+}
