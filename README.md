@@ -1,4 +1,4 @@
-# Error 404
+# Happy Weekend
 
 _website design project_
 
