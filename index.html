@@ -39,22 +39,11 @@
     </style>
     <title>Happy weekend</title>
   </head>
-  <body
-    style="
-      font-family: 'Roboto', sans-serif;
-      width: 1500px;
-      margin: 0 auto;
-      color: #3f4371;
-    "
-  >
-    <header style="margin-top: 20px">
-      <div style="height: 52px; display: flex; justify-content: center">
-        <img
-          style="height: 100%; margin-top: 20px"
-          src="./img/logo.png"
-          alt="Broken logo"
-        />
-        <ul style="display: inline-block; margin-left: 420px; font-size: 22px">
+  <body>
+    <header>
+      <div id="navigation">
+        <img id="logo-img" src="./img/logo.png" alt="Broken logo" />
+        <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Project</a></li>
           <li><a href="#">About</a></li>
@@ -64,77 +53,24 @@
       </div>
     </header>
     <main>
-      <div
-        style="
-          font-size: 30px;
-          display: inline-block;
-          width: 33%;
-          margin-top: 50px;
-        "
-      >
-        <h1
-          style="
-            text-transform: uppercase;
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            font-size: 94px;
-            margin-bottom: -10px;
-          "
-        >
-          <p style="margin: 0; font-size: 120px">A happy</p>
+      <div id="left-column">
+        <h1>
+          <p>A happy</p>
           weekend
         </h1>
-        <p
-          style="
-            font-size: 26px;
-            text-align: justify;
-            color: black;
-            margin-bottom: 130px;
-          "
-        >
+        <p>
           The people who get on in this world are the people who get up and look
           for circumstances they want, and if they cannot find them, make them.
         </p>
-        <a href="#"
-          ><div
-            id="moreBtn"
-            style="
-              background-color: #3f4371;
-              border-radius: 10px;
-              color: white;
-              font-size: 28px;
-              text-align: center;
-              text-transform: uppercase;
-              padding: 18px;
-              width: 210px;
-            "
-          >
-            More
-          </div></a
-        >
-        <div style="font-size: 40px; margin-top: 100px">
-          <a href="#"
-            ><i
-              style="margin-right: 35px"
-              class="fa-brands fa-square-instagram"
-            ></i
-          ></a>
-          <a href="#"
-            ><i
-              style="margin-right: 35px"
-              class="fa-brands fa-square-twitter"
-            ></i
-          ></a>
+        <a href="#"><div id="moreBtn">More</div></a>
+        <div id="icon-div">
+          <a href="#"><i class="fa-brands fa-square-instagram icon"></i></a>
+          <a href="#"><i class="fa-brands fa-square-twitter icon"></i></a>
           <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
         </div>
       </div>
       <img
-        style="
-          width: 65%;
-          display: inline-block;
-          float: right;
-          margin-top: 50px;
-          margin-right: 30px;
-        "
+        id="cat-woman"
         src="./img/cat-woman-image.png"
         alt="Cat and woman image"
       />
