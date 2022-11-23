@@ -82,6 +82,9 @@ h1 + p {
   text-align: justify;
   color: black;
   margin-bottom: 130px;
+  width: 94%;
+  line-height: 1.3em;
+  letter-spacing: 1px;
 }
 
 i {
