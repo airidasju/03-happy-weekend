@@ -1,7 +1,7 @@
 body {
   font-family: 'Roboto', sans-serif;
       width: 1500px;
-      margin: 0 auto;
+      margin-left: calc((100% - 1500px) / 2);
       color: #3f4371;
 }
 
@@ -41,6 +41,10 @@ li {
   display: inline-block;
   margin-right: 75px;
   color: #3f4371;
+}
+
+li:last-of-type {
+  margin-right: 0;
 }
 
 li:hover {
