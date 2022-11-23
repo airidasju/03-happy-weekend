@@ -43,6 +43,11 @@ li {
   color: #3f4371;
 }
 
+li:first-of-type {
+  border: 2px solid #3f4371;
+  border-radius: 5px;
+}
+
 li:last-of-type {
   margin-right: 0;
 }
