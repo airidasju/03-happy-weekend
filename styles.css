@@ -1,17 +1,21 @@
+ :root {
+  --main-color: #3f4371;
+ }
+
 body {
   font-family: 'Roboto', sans-serif;
-      width: 1500px;
-      margin-left: calc((100% - 1500px) / 2);
-      color: #3f4371;
+  width: 1500px;
+  margin-left: calc((100% - 1500px) / 2);
+  color: var(--main-color);
 }
 
 header {
   margin-top: 25px;
 }
 
-#navigation {
+.navigation-bar {
   height: 52px;
-  display: flex; 
+  display: flex;
   justify-content: space-between;
 }
 
@@ -21,14 +25,13 @@ nav {
   justify-content: center;
 }
 
-#logo-img {
+.logo-img {
   height: 100%;
-
 }
 
 a {
   text-decoration: none;
-  color: #3f4371;
+  color: var(--main-color);
 }
 
 ul {
@@ -40,11 +43,11 @@ li {
   padding: 4px 10px;
   display: inline-block;
   margin-right: 75px;
-  color: #3f4371;
+  color: var(--main-color);
 }
 
 li:first-of-type {
-  border: 2px solid #3f4371;
+  border: 2px solid var(--main-color);
   border-radius: 5px;
 }
 
@@ -53,28 +56,30 @@ li:last-of-type {
 }
 
 li:hover {
-  border: 3px solid #3f4371;
+  border: 3px solid var(--main-color);
   padding: 4px 10px;
   border-radius: 5px;
   font-weight: bold;
 }
 
-#left-column {
+.left-column {
   font-size: 30px;
-          display: inline-block;
-          width: 33%;
-          margin-top: 50px;
+  display: inline-block;
+  float: left;
+  width: 33%;
+  margin-top: 50px;
 }
 
 h1 {
   text-transform: uppercase;
-            font-family: 'Yanone Kaffeesatz', sans-serif;
-            font-size: 94px;
-            margin-bottom: -10px;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-size: 94px;
+  margin-bottom: -10px;
 }
 
 h1 :first-child {
-  margin: 0; font-size: 120px
+  margin: 0;
+  font-size: 120px;
 }
 
 h1 + p {
@@ -87,23 +92,9 @@ h1 + p {
   word-spacing: 1px;
 }
 
-i {
-  font-size: 48px;
-  margin-right: 35px;
-}
-
-i:hover {
-  color: rgb(0, 153, 255);
-}
-
-#icon-div {
-  font-size: 40px;
-  margin-top: 100px;
-}
-
-#moreBtn {
+.moreBtn {
   box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
-  background-color: #3f4371;
+  background-color: var(--main-color);
   border-radius: 10px;
   color: white;
   font-size: 28px;
@@ -111,12 +102,41 @@ i:hover {
   text-transform: uppercase;
   padding: 18px;
   width: 210px;
+  transition: all 0.5s;
 }
 
-#cat-woman {
+.moreBtn:hover {
+  box-shadow: 0px 25px 30px -20px black;
+}
+
+.cat-woman {
   width: 65%;
   display: inline-block;
   float: right;
   margin-top: 50px;
   margin-right: 30px;
+}
+
+.socials {
+  font-size: 40px;
+  margin-top: 80px;
+  float: left;
+}
+
+.icon {
+  font-size: 26px;
+  width: 1.9em;
+  height: 1.9em;
+  line-height: 1.9em;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  
+  background-color: var(--main-color);
+  color: white;
+  text-align: center;
+  border-radius: 50%;
+}
+
+.icon:hover {
+  color: rgb(0, 153, 255);
 }
